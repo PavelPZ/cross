@@ -5,7 +5,7 @@
     "baseUrl": ".",
     "paths": {
       //fake dependency. If package has dependency and outDir is defined, for Native is generated rw-utils path too
-      "rw-empty/*": [ "d:/rw/lib/rw-empty/*" ]
+      "rw-empty/*": [ "../rw-empty/*" ]
     }
 
   },

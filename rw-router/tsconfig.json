@@ -4,7 +4,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "rw-utils/*": [ "d:/rw/lib/rw-utils/*" ]
+      "rw-utils/*": [ "../rw-utils/*" ]
     }
   },
 

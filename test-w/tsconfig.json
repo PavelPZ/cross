@@ -1,7 +1,11 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es6",
+    "target": "es5",
+    "module": "system",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "importHelpers": true,
 
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": false,
@@ -16,18 +20,15 @@
       "es2015",
       "esnext.asynciterable"
     ],
-
     "baseUrl": ".",
     "paths": {
-      "rw-utils/*": [ "d:/rw/lib/rw-utils/*" ],
-      "rw-router/*": [ "d:/rw/lib/rw-router/*" ]
+      "rw-utils/*": [ "../rw-utils/*" ],
+      "rw-router/*": [ "../rw-router/*" ]
     }
-
   },
 
   "include": [
-    "App.tsx",
-    "../rw-utils/native/expo.d.ts"
+    "index.tsx"
   ],
 
   "exclude": [

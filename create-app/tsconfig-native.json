@@ -3,7 +3,7 @@
   "compilerOptions": {
     "target": "es6",
 
-    "outDir": "d:/rw/lib/rw-native/node_modules",
+    "outDir": "d:/cross/test-n/node_modules",
 
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": false,
