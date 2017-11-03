@@ -16,6 +16,7 @@
     "@types/react-redux": "^5.0.12",
     "material-ui": "^1.0.0-beta.19",
     "material-ui-icons": "^1.0.0-beta.17",
+    "react-native-elements": "^0.18.0",
     "redux": "^3.7.2",
     "redux-saga": "^0.16.0",
     "tslib": "^1.8.0"
