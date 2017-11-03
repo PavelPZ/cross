@@ -1,0 +1,19 @@
+{
+  "extends": "../create-app/tsconfig.common.json",
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "rw-utils/*": [ "../rw-utils/*" ],
+      "rw-router/*": [ "../rw-router/*" ]
+    }
+
+  },
+
+  "include": [
+    "index.tsx",
+    "App.tsx"
+  ]
+
+
+  }

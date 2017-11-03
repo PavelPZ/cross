@@ -56,6 +56,7 @@ SystemJS.config({
     "rw-utils": "local:rw-utils@1.0.0",
     "stream": "npm:jspm-nodelibs-stream@0.2.1",
     "string_decoder": "npm:jspm-nodelibs-string_decoder@0.2.2",
+    "test-a": "local:test-a@1.0.0",
     "tslib": "npm:tslib@1.8.0",
     "url": "npm:jspm-nodelibs-url@0.2.1",
     "util": "npm:jspm-nodelibs-util@0.2.2",

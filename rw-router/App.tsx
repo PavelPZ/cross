@@ -1,3 +1,3 @@
-﻿import App from 'native/index'
+﻿import App from 'native/index' 
 
 export default App

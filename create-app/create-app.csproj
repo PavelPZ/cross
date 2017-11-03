@@ -42,14 +42,20 @@
     <None Include="create-native-app.cmd" />
     <None Include="create.cmd" />
     <None Include="create-lib.cmd" />
+    <Content Include="lib\index.html" />
     <Content Include="jspm.config.js" />
     <Content Include="package.json" />
     <Content Include="tsconfig-native.json" />
     <Content Include="tsconfig-web.json" />
     <Content Include="tsconfig.common.json" />
+    <Content Include="lib\tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="lib\App.tsx" />
+    <TypeScriptCompile Include="lib\index.tsx" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

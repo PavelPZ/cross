@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D749906B-7F42-4A69-8AAA-680BA4A50616}</ProjectGuid>
+    <ProjectGuid>{7B4E280C-B049-4476-AEE0-7FF5B1CFD5BC}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>test_n</RootNamespace>
-    <AssemblyName>test-n</AssemblyName>
+    <RootNamespace>test_a</RootNamespace>
+    <AssemblyName>test-a</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -25,7 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <TypeScriptToolsVersion>2.6</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -68,14 +68,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".babelrc" />
-    <Content Include=".watchmanconfig" />
-    <Content Include="app.json" />
-    <Content Include="copy-to-nodemodules.cmd" />
     <Content Include="package.json" />
     <None Include="packages.config" />
     <Content Include="tsconfig.json" />
-    <Content Include="run.cmd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -84,10 +79,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
-    <Content Include="assets\icon.png" />
-    <Content Include="assets\splash.png" />
-    <Content Include="copy-to-nodemodules.txt" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,9 +87,20 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="App.tsx" />
+    <TypeScriptCompile Include="index.tsx" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\rw-router\rw-router.csproj">
+      <Project>{3a9b8aa0-48f2-4b3c-adca-107f26a50737}</Project>
+      <Name>rw-router</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\rw-utils\rw-utils.csproj">
+      <Project>{a49cedba-4806-43d3-82da-7d1e1c1b3552}</Project>
+      <Name>rw-utils</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -113,9 +116,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52681</DevelopmentServerPort>
+          <DevelopmentServerPort>56340</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52681/</IISUrl>
+          <IISUrl>http://localhost:56340/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

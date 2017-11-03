@@ -1,9 +1,11 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es6",
-
-    "outDir": "d:/cross/test-n/node_modules",
+    "target": "es5",
+    "module": "system",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "importHelpers": true,
 
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": false,
