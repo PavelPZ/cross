@@ -2,7 +2,7 @@ d:
 cd %1
 rmdir %1\node_modules /s /q
 
-copy d:\rw\lib\create-app\package.json %1\package.json
+copy d:\cross\create-app\package.json %1\package.json
 
 call json -I -f package.json -e "this.name=\"%2\""
 call json -I -f package.json -e "this.main=\"node_modules/expo/AppEntry.js\""
