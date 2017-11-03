@@ -1,17 +1,15 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es5",
-    "module": "system",
-    "inlineSourceMap": true,
-    "inlineSources": true,
-    "importHelpers": true,
+    "target": "es6",
+
+    "outDir": "d:/cross/test-n/node_modules",
 
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": false,
     "downlevelIteration": true,
     "moduleResolution": "node",
-    "strict": true,
+    //"strict": true,
     "noImplicitReturns": true,
     "noImplicitAny": false,
     "jsx": "react",
@@ -23,8 +21,8 @@
   },
 
   "exclude": [
-    "../*/jspm_packages/**/*",
-    "../*/node_modules/**/*"
+    "../*/jspm_packages",
+    "../*/node_modules"
   ]
 
 }

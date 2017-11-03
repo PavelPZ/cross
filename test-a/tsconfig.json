@@ -14,7 +14,8 @@
 
   "include": [
     "index.tsx",
-    "App.tsx"
+    "App.tsx",
+    "../rw-utils/native/expo.d.ts"
   ]
 
 

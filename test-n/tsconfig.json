@@ -20,7 +20,8 @@
     "baseUrl": ".",
     "paths": {
       "rw-utils/*": [ "../rw-utils/*" ],
-      "rw-router/*": [ "../rw-router/*" ]
+      "rw-router/*": [ "../rw-router/*" ],
+      "test-a/*": [ "../test-a/*" ]
     }
 
   },
@@ -31,8 +32,8 @@
   ],
 
   "exclude": [
-    "jspm_packages/**/*",
-    "node_modules/**/*"
+    "jspm_packages",
+    "node_modules"
   ]
 
 }
