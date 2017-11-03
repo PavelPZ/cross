@@ -1,0 +1,6 @@
+{
+  "jspm": {
+    "name": "rw-empty",
+    "main": "index.js"
+  }
+}

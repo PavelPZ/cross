@@ -1,0 +1,38 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es6",
+
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": false,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2015",
+      "esnext.asynciterable"
+    ],
+
+    "baseUrl": ".",
+    "paths": {
+      "rw-utils/*": [ "d:/rw/lib/rw-utils/*" ],
+      "rw-router/*": [ "d:/rw/lib/rw-router/*" ]
+    }
+
+  },
+
+  "include": [
+    "App.tsx",
+    "../rw-utils/native/expo.d.ts"
+  ],
+
+  "exclude": [
+    "jspm_packages/**/*",
+    "node_modules/**/*"
+  ]
+
+}

@@ -286,3 +286,9 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+# LM
+jspm_packages/
+*.js
+
+*.js
+!**/jspm.config.js

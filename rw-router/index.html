@@ -1,0 +1,25 @@
+﻿<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TEMPLATE</title>
+</head>
+<body style="margin:0; padding:0; overflow:hidden; ">
+  <div id="content" style="width:100vw; height:100vh">
+    <div style="display:flex; flex:1; justify-content:center; align-items: center; height:100vh ">
+      <h2>Loading...</h2>
+    </div>
+  </div>
+
+  <script src="jspm_packages/npm/core-js@2.5.1/client/shim.min.js"></script>
+
+  <script src="jspm_packages/system.src.js"></script>
+  <script src="jspm.config.js"></script>
+  <script>
+    System.import(window.location.host.toLowerCase().indexOf('localhost') == 0 ? 'index.js' : 'bundle.js').then(function (m) { m.init(); }).catch(function (err) { debugger; });
+    //jspm bundle index.js bundle.js --minify --skip-source-maps
+  </script>
+  
+</body>
+
+</html>

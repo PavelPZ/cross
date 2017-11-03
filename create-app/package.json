@@ -1,0 +1,11 @@
+{
+  "name": "rw-xxx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "jspm": {
+    "name": "rw-xxx",
+    "main": "index.js",
+    "dependencies": {
+    }
+  }
+}

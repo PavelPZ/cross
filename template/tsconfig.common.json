@@ -1,0 +1,37 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "importHelpers": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "material-ui/*": [ "jspm_packages/npm/material-ui@next/*" ],
+      "material-ui-icons/*": [ "jspm_packages/npm/material-ui-icons@1.0.0-beta.17/*" ]
+    },
+
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": false,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2015",
+      "esnext.asynciterable"
+    ]
+  },
+
+  "exclude": [
+    "../*/native/**/*",
+    "../*/jspm_packages/**/*",
+    "../*/node_modules/**/*"
+  ]
+
+}

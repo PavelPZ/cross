@@ -1,0 +1,27 @@
+{
+  "extends": "../create-app/tsconfig.common.json",
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      //fake dependency. If package has dependency and outDir is defined, for Native is generated rw-utils path too
+      "rw-empty/*": [ "d:/rw/lib/rw-empty/*" ]
+    }
+
+  },
+
+  //"compilerOptions": {
+  //  "baseUrl": ".",
+  //  "paths": {
+  //    "material-ui/*": [ "jspm_packages/npm/material-ui@next/*" ],
+  //    "material-ui-icons/*": [ "jspm_packages/npm/material-ui-icons@1.0.0-beta.17/*" ]
+  //  }
+  //},
+
+  "include": [
+    "index.tsx",
+    "App.tsx"
+  ]
+
+
+  }

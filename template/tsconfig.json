@@ -1,0 +1,17 @@
+{
+  "extends": "../template/tsconfig.common.json",
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "rw-utils/*": [ "jspm_packages/local/rw-utils@1.0.0/*" ],
+      "rw-router/*": [ "jspm_packages/local/rw-router@1.0.0/*" ]
+    }
+  },
+
+  "include": [
+    "index.tsx",
+    "../rw-utils/common/app-d.d.ts"
+  ]
+
+}
